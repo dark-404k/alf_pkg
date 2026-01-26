@@ -15,3 +15,12 @@ for file in os.listdir(package_dir):
         except Exception as e:
             print(f"Error loading module {module_name}: {e}")
         break
+# আপনার মডিউল লোড হওয়ার পর সরাসরি ফাংশন কল করুন
+# আপনার মডিউল লোড হওয়ার পর সরাসরি ফাংশন কল করুন
+try:
+    from .Alf_enc import login  # এখানে 'approval' এর বদলে 'login' হবে
+    login()
+except Exception as e:
+    # রান না হলে এরর দেখার জন্য নিচের লাইনটি ব্যবহার করতে পারেন
+    # print(f"Error: {e}")
+    pass
