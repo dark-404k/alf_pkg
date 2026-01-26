@@ -1,3 +1,1 @@
-
-from .alf import *)
-​alf.so
+from .alf import *
