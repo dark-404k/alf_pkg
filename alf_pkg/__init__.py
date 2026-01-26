@@ -1,1 +1,2 @@
-echo "from .alf import *" > alf_pkg/__init__.py
+printf "from .alf import *\n" > alf_pkg/__init__.py
+
